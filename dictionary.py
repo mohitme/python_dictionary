@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import json
 from difflib import get_close_matches
 data = json.load(open("dictionary.json"))
@@ -31,10 +25,5 @@ if type(out) == list:
         print("-",i)
 else:
     print("-",out)
-
-
-# In[ ]:
-
-
 
 
